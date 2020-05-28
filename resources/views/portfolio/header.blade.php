@@ -17,7 +17,13 @@
             </nav>
         </div>
     </div>
-{{--    <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>--}}
+    <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
+    <div class="social">
+        <span class="mr-3"><i class="fab fa-facebook-f"></i></span>
+        <span class="mr-3"><i class="fab fa-twotter"></i></span>
+        <span class="mr-3"><i class="fab fa-instagram"></i></span>
+        <span class="mr-3"><i class="fab fa-youtube"></i></span>
+    </div>
     <div class="social">
         <span class="mr-3"><i class="fab fa-facebook-f"></i> </span>
         <span class="mr-3"><i class="fab fa-twitter"></i> </span>

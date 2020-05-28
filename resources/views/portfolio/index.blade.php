@@ -18,6 +18,9 @@
     @include('portfolio.header')
     @include('portfolio.main')
 
+    <!-- Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/portfolio.js') }}"></script>
 </body>
 </html>
