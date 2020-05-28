@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::prefix('portfolio')->group(function () {
+    Route::get('/', 'PortfolioController@index');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
