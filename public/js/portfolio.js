@@ -112,8 +112,8 @@ function toggle_onclick($win, $navbar, $toggle, width) {
   if ($win.width() <= 768) {
     $(".toggle-button").show();
     $navbar.css({
-      left: "-".concat(width, "px")
-    });
+      left: '-1000px'
+    }); // $navbar.css({left:`-${width}px`});
   } else {
     $(".toggle-button").hide();
     $navbar.css({
