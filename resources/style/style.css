@@ -44,7 +44,7 @@ body {
 }
 
 .bgcolor-black{
-    background-color: var(--color-black);
+    background-color: var(--color-black) !important;
 }
 
 #header {
@@ -52,7 +52,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 99999;
+    z-index: 0;
     transition: left .5s ease;
 }
 
@@ -101,9 +101,28 @@ body {
 .site-banner .banner-area .author{
     margin: 0;
     position: absolute;
-    top: 45%;
+    top: 6%;
     left: 50%;
     transform:translate(-50%,-50%);
 }
 
+.skill .bars p, .site-content.skill .bars span{
+    line-height: 10px;
+}
+
+#footer form .row .col input[type="text"],
+#footer form .row .col input[type="email"],
+#footer form textarea{
+    background: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid gray;
+    padding: 1.5rem 1rem;
+}
+
+@media screen and (min-width: 768px){
+    .toggle-button{
+        display:none;
+    }
+}
 /* #site-main*/
