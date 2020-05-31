@@ -7,7 +7,7 @@
                     <div class="author text-center">
                         <div class="author-img"></div>
                         <h1 class="text-white font-staat font-size-40 text-uppercase py-3">Marcin Michalak</h1>
-                        <h5 class="text-white font-ram font-size-27">I'm web developer <span id="typed"></span></h5>
+                        <h5 class="text-white font-ram font-size-27">I'm <span id="typed"></span></h5>
                     </div>
                 </div>
             </section>

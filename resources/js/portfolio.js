@@ -27,3 +27,14 @@ function toggle_onclick($win, $navbar, $toggle, width){
         $navbar.css({left:'0px'});
     }
 }
+var Typed = require('./typed.min.js');
+
+var typed = new Typed("#typed",{
+    strings:[
+        'Web Developer',
+        'Freelancer'
+    ],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true
+});
