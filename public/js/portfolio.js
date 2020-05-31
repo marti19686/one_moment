@@ -143,12 +143,10 @@ $(document).ready(function (e) {
 
 function toggle_onclick($win, $navbar, $toggle, width) {
   if ($win.width() <= 768) {
-    $(".toggle-button").show();
     $navbar.css({
-      left: '-1000px'
-    }); // $navbar.css({left:`-${width}px`});
+      left: "-".concat(width, "px")
+    });
   } else {
-    $(".toggle-button").hide();
     $navbar.css({
       left: '0px'
     });
@@ -162,6 +160,20 @@ var typed = new Typed("#typed", {
   typeSpeed: 50,
   backSpeed: 50,
   loop: true
+});
+var typed_2 = new Typed("#typed_2", {
+  strings: ['Web Developer', 'Freelancer'],
+  typeSpeed: 50,
+  backSpeed: 50,
+  loop: true
+});
+document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
 });
 
 /***/ }),
