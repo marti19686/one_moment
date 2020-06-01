@@ -15,8 +15,10 @@
 
 </head>
 <body>
-    @include('portfolio.header')
-    @include('portfolio.main')
+    <div class="row m-0">
+        @include('portfolio.header')
+        @include('portfolio.main')
+    </div>
 
     <!-- Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
