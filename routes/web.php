@@ -19,6 +19,7 @@ Route::get('/', function () {
 
 Route::prefix('portfolio')->group(function () {
     Route::get('/', 'PortfolioController@index');
+    Route::get('/cv/download/', "PortfolioController@download")->name('downloadCV');
 });
 
 Auth::routes();

@@ -58,8 +58,8 @@
                                 </p>
                             </div>
                         </div>
-                        <button class="btn btn-dark text-uppercase mr-3">Hire ME</button>
-                        <button class="btn btn-dark text-uppercase mr-3">Download CV</button>
+{{--                        <button class="btn btn-dark text-uppercase mr-3">Hire ME</button>--}}
+                        <a download="CV_Marcin_Michalak" href="{{ url('/assets/CV_Michalak_Marcin.pdf') }}" class="btn btn-dark text-uppercase mr-3">Download CV</a>
                     </div>
                 </div>
             </section>

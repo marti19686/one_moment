@@ -146,9 +146,15 @@ function toggle_onclick($win, $navbar, $toggle, width) {
     $navbar.css({
       left: "-".concat(width, "px")
     });
+    $navbar.css({
+      zIndex: "9999"
+    });
   } else {
     $navbar.css({
       left: '0px'
+    });
+    $navbar.css({
+      zIndex: "0"
     });
   }
 }
