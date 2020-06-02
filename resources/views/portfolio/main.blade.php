@@ -12,7 +12,7 @@
             </section>
 
             <!-- about me area -->
-            <section class="about px-4 my-5" id="about">
+            <section class="about px-4 py-5 bg-white" id="about">
                 <div class="me py-5">
                     <h5 class="text-uppercase font-os font-size-16 text-muted">Information</h5>
                     <h1 class="text-uppercase font-staat font-size-34">About me</h1>
@@ -25,8 +25,10 @@
                         <h6 class="text-uppercase font-os font-size-16 text-muted">About Me</h6>
                         <h5 class="font-ram font-size-20 py-2">I'm Marcin Michalak & <span id="typed_2"></span></h5>
                         <p class="font-ram text-black-50 py-2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum urna, ac dignissim orci.
-                            Phasellus accumsan vehicula elementum. Aenean lacinia in neque a luctus. Fusce id elit tellus. Phasellus nibh felis, mollis sit amet commodo vel, volutpat in erat.
+                            My name is Marcin Michalak, and I'm currently work as web developer in PHP. I'm open to expanding my skills and knowledge.
+                            People find me to be an upbeat, self-motivated team player with excellent communication skills.
+                            For the past several years I have worked in computer service, e-marketing, and customer service in the technology industry.
+
                         </p>
                         <div class="d-flex flex-row flex-wrap justify-content-between py-4">
                             <div class="d-flex flex-column">
@@ -36,7 +38,7 @@
                                  </p>
                                 <p class="font-raw">
                                     <b>Website: </b>
-                                    <span class="text-black-50">www.one-moment.pl</span>
+                                    <a href="http://onemoment.test/" class="text-decoration-none" target="_blank"><span class="text-black-50">www.one-moment.pl</span></a>
                                 </p>
                                 <p class="font-raw">
                                     <b>Phone: </b>
@@ -54,7 +56,7 @@
                                 </p>
                                 <p class="font-raw">
                                     <b>Github: </b>
-                                    <span class="text-black-50">github.com/marti19686</span>
+                                    <a href="https://github.com/marti19686" class="text-decoration-none" tar><span class="text-black-50">github.com/marti19686</span></a>
                                 </p>
                             </div>
                         </div>
@@ -116,7 +118,7 @@
             </section>
 
             <!-- services -->
-            <section class="services-area px-3 py-5" id="services">
+            <section class="services-area px-3 py-5 bg-white" id="services">
                 <div class="do py-5">
                     <h5 class="text-uppercase font-os font-size-16 text-muted">What I Do</h5>
                     <h1 class="text-uppercase font-staat font-size-34">Services</h1>
@@ -138,15 +140,15 @@
                     </div>
                     <div class="col-md-4 col-sm-6 mb-4 text-center">
                         <div class="panel border p-4">
-                            <span class="icon text-secondary"><i class="fas fa-camera fa-3x"></i></span>
-                            <h4 class="font-ram py-4">Photography</h4>
+                            <span class="icon text-secondary"><i class="fab fa-laravel fa-3x"></i></span>
+                            <h4 class="font-ram py-4">Laravel Framework</h4>
                             <p class="font-ram font-size-16 text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum urna, ac dignissim orci.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 mb-4 text-center">
                         <div class="panel border p-4">
-                            <span class="icon text-secondary"><i class="fas fa-chart-line fa-3x"></i></span>
-                            <h4 class="font-ram py-4">Marketing</h4>
+                            <span class="icon text-secondary"><i class="fab fa-php fa-3x"></i></span>
+                            <h4 class="font-ram py-4">PHP Language</h4>
                             <p class="font-ram font-size-16 text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum urna, ac dignissim orci.</p>
                         </div>
                     </div>
@@ -159,8 +161,8 @@
                     </div>
                     <div class="col-md-4 col-sm-6 mb-4 text-center">
                         <div class="panel border p-4">
-                            <span class="icon text-secondary"><i class="fas fa-directions fa-3x"></i></span>
-                            <h4 class="font-ram py-4">Art Direction</h4>
+                            <span class="icon text-secondary"><i class="fas fa-database fa-3x"></i></span>
+                            <h4 class="font-ram py-4">Database</h4>
                             <p class="font-ram font-size-16 text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed interdum urna, ac dignissim orci.</p>
                         </div>
                     </div>
@@ -187,7 +189,7 @@
             </section>
 
             <!-- work -->
-            <section class="work py-5 px-4" id="work">
+            <section class="work py-5 px-4 bg-white" id="work">
                 <div class="py-3">
                     <h5 class="text-uppercase font-os font-size-16 text-muted">Portfolio</h5>
                     <h1 class="text-uppercase font-staat font-size-34">Creative work</h1>

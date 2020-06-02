@@ -126,4 +126,15 @@ body {
     }
 }
 
+.panel:hover{
+    background-color: #6c757d;
+    color: white;
+}
+
+.panel:hover .icon{
+    color: white !important;
+}
+.panel:hover p{
+    color: white !important;
+}
 /* #site-main*/
