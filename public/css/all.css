@@ -101,7 +101,7 @@ body {
 .site-banner .banner-area .author{
     margin: 0;
     position: absolute;
-    top: 6%;
+    top: 400px;
     left: 50%;
     transform:translate(-50%,-50%);
 }
